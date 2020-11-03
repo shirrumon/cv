@@ -1,8 +1,14 @@
+html
+{
+  font-family: 'Trispace', sans-serif;
+}
+
 body
 {
   margin: 0;
   padding: 0;
   word-wrap: break-word;
+  font-family: 'Trispace', sans-serif;
 }
 
 hr
@@ -17,7 +23,7 @@ li
 
 span
 {
-  font-family: FontAwesome;
+  font-family: 'Trispace', sans-serif, FontAwesome;
 }
 
 .main-wrapper
@@ -28,7 +34,7 @@ span
 .content-wrapper
 {
   background-color: rgba(242, 241, 239, 1);
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 3px pink,0 0 5px #ff19d9;
 }
 
 .sidebar
@@ -98,6 +104,11 @@ margin-top: 5%;
   line-height: 1.2em;
 }
 
+.about-area p
+{
+  font-family: 'Trispace', sans-serif;
+}
+
 .project-area li
 {
   color: black;
@@ -123,6 +134,8 @@ margin-top: 5%;
 {
   text-align: center;
 }
+
+
 /*MEDIA-AREA*/
 @media(max-width: 770px)
 {
