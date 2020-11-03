@@ -89,11 +89,11 @@ margin-top: 5%;
   font-weight: 800;
 }
 
-.about-me, .project, .exp, .edu
+.about-me, .project, .exp, .edu, .lan
 {
   margin: 3% 1% 5% 5%;
 }
-.about-me h3, .project h3, .exp h3, .edu h3
+.about-me h3, .project h3, .exp h3, .edu h3, .lan h3
 {
   font-weight: 600;
 }
