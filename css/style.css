@@ -135,6 +135,11 @@ margin-top: 5%;
   text-align: center;
 }
 
+.footer p
+{
+  color: red;
+  font-weight: 600;
+}
 
 /*MEDIA-AREA*/
 @media(max-width: 770px)
