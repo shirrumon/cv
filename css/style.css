@@ -34,7 +34,7 @@ span
 .content-wrapper
 {
   background-color: rgba(242, 241, 239, 1);
-  box-shadow: 0 0 0 3px pink,0 0 5px #ff19d9;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar
@@ -48,12 +48,14 @@ span
 {
   padding: 1%;
   margin-top: 2%;
+
 }
 
 .social-image img
 {
   width: 100%;
   border-radius: 50%;
+  box-shadow: 0 0 0 3px pink,0 0 5px #ff19d9;
 }
 
 .text-wrapper
